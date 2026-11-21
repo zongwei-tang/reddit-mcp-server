@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+dist/
+build/
+*.egg-info/
+
+# Local Claude Code state
+.claude/
+
+# Secrets: never commit a session cookie or the MCP access token
+.mcp-token
+.env
+.env.*
+*cookie*.txt
+*.cookie
+cookies/
